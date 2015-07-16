@@ -1,0 +1,25 @@
+<% title = ' website' %>
+<!doctype html>
+<html lang='en'>
+<head>
+<title><%= title  %> </title>
+<link rel='stylesheet' type ='text/css'  href='style.css'>
+</head> 
+<body>
+<h1><%= title %>  </h1>
+<header>
+<nav> 
+<ul>
+<li> <a href = '/'>Home </a></li> 
+<li> <a href = '/about'>About</a></li> 
+<li> <a href = '/contact' >Contact</a></li>
+
+</ul>
+</nav>
+</header>
+<section> 
+  <%= yield %> 
+</section>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+h1
+{
+	color:rgb(100,250,100); 
+ font-size : medium;
+ text-align:center;
+ text-transform:uppercase;
+ font-family: fantasy; 
+}
+ul {
+ text-align:justify;
+}
+ p {
+  font-family:fantasy;
+  font-size : small; 
+ text-align:center; 
+
+}
+li { 
+	display:inline-block; 
+	list-style:none; 
+	list-style-type:none; 
+}
+
